@@ -665,3 +665,35 @@ input[type=range]::-webkit-slider-thumb:hover {
   opacity: 1 !important;
   visibility: visible !important;
 }
+
+
+/* --- MOBILE & LOW-POWER PERFORMANCE OPTIMIZATIONS --- */
+@media (max-width: 768px) {
+  /* Reduce blur load on mobile GPU */
+  .aurora-orb {
+    filter: blur(40px) !important;
+    -webkit-filter: blur(40px) !important;
+    opacity: 0.45 !important;
+  }
+  
+  .glass-nav {
+    backdrop-filter: blur(12px) !important;
+    -webkit-backdrop-filter: blur(12px) !important;
+  }
+
+  .gallery-3d-stage {
+    perspective: 900px !important;
+  }
+
+  /* Hardware acceleration for 3D cards */
+  .gallery-3d-item {
+    will-change: transform, opacity;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+  }
+}
+
+/* Image content rendering optimization */
+img {
+  content-visibility: auto;
+}

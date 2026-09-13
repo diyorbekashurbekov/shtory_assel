@@ -19,7 +19,7 @@ const DEFAULT_DATA = {
     workHours: "Күн сайын: 10:00 — 19:00",
     promoActive: true,
     promoText: "✨ 26 жылдық шеберлік құрметіне: Барлық элиталық маталарға дизайнердің үйге келуі мен өлшеу ТЕГІН! • Kaspi 0-0-12 • Тел: +7 (705) 431-27-32",
-    heroImage: "images/hero-curtains.png"
+    heroImage: "images/hero-curtains.webp"
   },
   rates: {
     velvet: 18500,
@@ -42,7 +42,7 @@ const DEFAULT_DATA = {
       origin: "Бельгия",
       opacity: "65% Жұмсақ жарық",
       desc: "Ықшам көтеру механизмі бар, жиектері кантымен өңделген табиғи зығыр рим пердесі.",
-      image: "images/roman-blind-linen.jpg"
+      image: "images/roman-blind-linen.webp"
     },
     {
       id: "emerald",
@@ -52,7 +52,7 @@ const DEFAULT_DATA = {
       origin: "Италия & Франция",
       opacity: "95% Күңгірттеу",
       desc: "Зүмірет жасыл барқыттан тігілген сәнді драпировка және арнайы жапырақ пішінді алтын аксессуарлар.",
-      image: "images/emerald-royal-drape.jpg"
+      image: "images/emerald-royal-drape.webp"
     },
     {
       id: "silver",
@@ -62,7 +62,7 @@ const DEFAULT_DATA = {
       origin: "Түркия & Италия",
       opacity: "90% Күңгірттеу",
       desc: "Жиектеріне хрустальді мөлдір шашақтар тігілген асыл күміс түстес барқыт матасы.",
-      image: "images/silver-crystal-fringe.jpg"
+      image: "images/silver-crystal-fringe.webp"
     },
     {
       id: "caramel",
@@ -72,7 +72,7 @@ const DEFAULT_DATA = {
       origin: "Түркия",
       opacity: "80% Күңгірттеу",
       desc: "Төбелік жарықпен керемет үйлесетін, қыртыстанбайтын жылы карамель реңкті премиум мата.",
-      image: "images/living-caramel-cove.png"
+      image: "images/living-caramel-cove.webp"
     },
     {
       id: "lace",
@@ -82,7 +82,7 @@ const DEFAULT_DATA = {
       origin: "Франция",
       opacity: "30% Нәзік жарық",
       desc: "Жиектері мәнерлі кружевомен көмкерілген, алтын гүлді подхваты бар нәзік микро-тюль.",
-      image: "images/french-lace-tulle.jpg"
+      image: "images/french-lace-tulle.webp"
     }
   ],
   projects: [
@@ -94,7 +94,7 @@ const DEFAULT_DATA = {
       location: "Шымкент, Тұран мкр.",
       fabric: "Қос түсті крем-софт & Алтын шашақтар",
       specs: "Биіктігі 3.4м • Хрусталь люстрамен үйлесім",
-      image: "images/crystal-ceiling-living.jpg",
+      image: "images/crystal-ceiling-living.webp",
       desc: "Оюлы төбе мен хрусталь люстрасы бар салтанатты қонақ бөлмеге арналған екі түсті сәнді драпировка."
     },
     {
@@ -105,7 +105,7 @@ const DEFAULT_DATA = {
       location: "Шымкент, Б. Момышұлы",
       fabric: "Алтын сатин драпировкасы & Металл қыстырғыш",
       specs: "Биіктігі 3.8м • Қатар орналасқан терезелер",
-      image: "images/banquet-chairs-drapery.jpg",
+      image: "images/banquet-chairs-drapery.webp",
       desc: "Зәулім банкет залының терезелеріне арнайы тігілген, алтын қыстырғыштармен жиналған корольдік драпировка."
     },
     {
@@ -116,7 +116,7 @@ const DEFAULT_DATA = {
       location: "Шымкент, Shymkent City",
       fabric: "Алтын сатин & Жапырақ подхваттар",
       specs: "Биіктігі 3.5м • Витражды есіктерге арналған",
-      image: "images/balcony-golden-swags.jpg",
+      image: "images/balcony-golden-swags.webp",
       desc: "Үлкен панорамалық витраждарға арналған сәнді алтын сатин және өрнекті жаккард перделері."
     },
     {
@@ -127,7 +127,7 @@ const DEFAULT_DATA = {
       location: "Шымкент, Тұран мкр.",
       fabric: "Тауп матасы & Сәнді ұзын шашақтар",
       specs: "L-тәрізді бұрыш • Диодты заманауи жарық",
-      image: "images/corner-salon-tassels.png",
+      image: "images/corner-salon-tassels.webp",
       desc: "Бұрыштық екі терезені біртұтас етіп безендіретін, ұзын сәнді шашақты подхваттары бар заманауи перделер."
     },
     {
@@ -138,7 +138,7 @@ const DEFAULT_DATA = {
       location: "Шымкент, Самал мкр.",
       fabric: "Қос маталы комбинация & Алтын подхват",
       specs: "Биіктігі 3.6м • 3 терезелі қабырға",
-      image: "images/banquet-triple-window.png",
+      image: "images/banquet-triple-window.webp",
       desc: "Үш үлкен терезесі бар қонақ қабылдау залына арналған біртұтас симметриялы сәулеттік перде ансамблі."
     },
     {
@@ -149,7 +149,7 @@ const DEFAULT_DATA = {
       location: "Шымкент, Қонаев даңғылы",
       fabric: "Табиғи бельгиялық зығыр & Контраст кант",
       specs: "Римдік тізбекті механизм • Дәл өлшем",
-      image: "images/roman-blind-linen.jpg",
+      image: "images/roman-blind-linen.webp",
       desc: "Шағын терезелерге, жуынатын бөлмелер мен ас үйге арналған геометриялық түзу жиналатын сәнді рим пердесі."
     },
     {
@@ -160,7 +160,7 @@ const DEFAULT_DATA = {
       location: "Шымкент, Тұран мкр.",
       fabric: "Карамель софт & Тік сызықты нәзік тюль",
       specs: "Биіктігі 3.3м • Төбелік LED жарық карнизі",
-      image: "images/living-caramel-cove.png",
+      image: "images/living-caramel-cove.webp",
       desc: "Төбеге жасырылған диодты жарықпен әсем көмкерілген жылы карамель түсті софт перделері."
     },
     {
@@ -171,7 +171,7 @@ const DEFAULT_DATA = {
       location: "Шымкент, Б. Момышұлы",
       fabric: "Алтын сатин-атлас & Жапырақ қыстырғыш",
       specs: "Биіктігі 3.6м • Қос қабатты сәнді драпировка",
-      image: "images/drape-gold-leaf-clasps.png",
+      image: "images/drape-gold-leaf-clasps.webp",
       desc: "Салтанатты алтын жапырақ қыстырғыштары бар, қос қабатты сәнді құйылған атлас-сатин перделері."
     },
     {
@@ -182,7 +182,7 @@ const DEFAULT_DATA = {
       location: "Шымкент, Нұрсәт мкр.",
       fabric: "Тауп матасы & Алтын гүлді металл брошь",
       specs: "Биіктігі 3.2м • Классикалық молдинг үйлесімі",
-      image: "images/floral-brooch-curtains.jpg",
+      image: "images/floral-brooch-curtains.webp",
       desc: "Мәрмәр еденмен және қабырға молдингтерімен мінсіз үйлесетін, алтын гүлді брошь подхваты бар перде."
     },
     {
@@ -193,7 +193,7 @@ const DEFAULT_DATA = {
       location: "Шымкент, Бәйдібек би даңғылы",
       fabric: "Құм түстес софт & Сүтті тюль",
       specs: "Биіктігі 3.0м • Жасырын карниз",
-      image: "images/minimal-sand-ripplefold.png",
+      image: "images/minimal-sand-ripplefold.webp",
       desc: "Қазіргі заманғы сәнді интерьерлерге арналған жұмсақ құм түсті түзу сәулеттік толқынды перделер."
     },
     {
@@ -204,7 +204,7 @@ const DEFAULT_DATA = {
       location: "Шымкент, Тұран мкр.",
       fabric: "Изумруд барқыты & Жаккард жапырақ өрнек",
       specs: "Биіктігі 3.6м • Жапырақ қыстырғыш",
-      image: "images/emerald-royal-drape.jpg",
+      image: "images/emerald-royal-drape.webp",
       desc: "Зүмірет жасыл барқыт пен нәзік жапырақ өрнекті жаккардтың патшалық үйлесімі. Жапырақ пішінді алтын металл подхватпен көмкерілген."
     },
     {
@@ -215,7 +215,7 @@ const DEFAULT_DATA = {
       location: "Шымкент, Б. Момышұлы",
       fabric: "Күміс сұр барқыт & Хрусталь моншақтар",
       specs: "Биіктігі 3.8м • Ламбрекенді толқын",
-      image: "images/silver-crystal-fringe.jpg",
+      image: "images/silver-crystal-fringe.webp",
       desc: "Жиектеріне мөлдір хрустальді шашақтар қолмен тігілген, алтын жапырақ подхваты бар салтанатты зал пердесі."
     },
     {
@@ -226,7 +226,7 @@ const DEFAULT_DATA = {
       location: "Шымкент, Самал мкр.",
       fabric: "Кружеволы микро-сетка & Алтын гүл подхват",
       specs: "Биіктігі 3.0м • Гүлді сәнді қыстырғыш",
-      image: "images/french-lace-tulle.jpg",
+      image: "images/french-lace-tulle.webp",
       desc: "Толқынды жиектері француз кружевосымен безендірілген, металл гүлді қыстырғышы бар нәзік тюль композициясы."
     },
     {
@@ -237,7 +237,7 @@ const DEFAULT_DATA = {
       location: "Шымкент, Тұран мкр.",
       fabric: "Архитектуралық Blackout & Этуаль микро-тюль",
       specs: "Биіктігі 3.2м • Жасырын төбелік профиль",
-      image: "images/hero-curtains.png",
+      image: "images/hero-curtains.webp",
       desc: "Төбеге жасырылған арнайы профиль арқылы еденге дейін мінсіз толқынмен түсетін сәулеттік жатын бөлме перделері."
     },
     {
@@ -248,7 +248,7 @@ const DEFAULT_DATA = {
       location: "Шымкент, Самал мкр.",
       fabric: "Премиум тауп софт & Алтын шашақты подхват",
       specs: "Биіктігі 3.4м • Панорамалық қос терезе",
-      image: "images/living-grand-hall.jpg",
+      image: "images/living-grand-hall.webp",
       desc: "Кең қонақ бөлмедегі екі үлкен терезені көмкерген, алтын шашақты подхваттары бар сәнді перделер."
     },
     {
@@ -259,7 +259,7 @@ const DEFAULT_DATA = {
       location: "Шымкент, Қонаев даңғылы",
       fabric: "Алтын сатин & Жапырақ қыстырғыш аксессуар",
       specs: "Биіктігі 3.6м • Қос қабатты драпировка",
-      image: "images/royal-gold-satin.jpg",
+      image: "images/royal-gold-satin.webp",
       desc: "Қос қабатты сәнді драпировка, жапырақ пішінді металл қыстырғыштармен және бедерлі жаккардпен үйлесім тапқан."
     },
     {
@@ -270,7 +270,7 @@ const DEFAULT_DATA = {
       location: "Шымкент, Shymkent City",
       fabric: "Бай сатин софт & Вертикалды шашақтар",
       specs: "Биіктігі 3.8м • 3 терезелі біртұтас қабырға",
-      image: "images/banquet-grand-residence.png",
+      image: "images/banquet-grand-residence.webp",
       desc: "Биік төбелі және люкс люстрасы бар салтанатты залға арнайы тігілген кең ауқымды перде ансамблі."
     },
     {
@@ -281,7 +281,7 @@ const DEFAULT_DATA = {
       location: "Шымкент, Нұрсәт мкр.",
       fabric: "Шоколадты фактура & Алтын төбелік багет",
       specs: "Биіктігі 3.1м • Есілген сәнді бау",
-      image: "images/classic-gold-cornice.jpg",
+      image: "images/classic-gold-cornice.webp",
       desc: "Төбесі алтын багетпен көмкерілген, тығыз тоқылған шоколадты мата және есілген жіпті шашақты подхват."
     },
     {
@@ -292,7 +292,7 @@ const DEFAULT_DATA = {
       location: "Шымкент, Шымсити",
       fabric: "Шампань софт матасы & Сүтті тюль",
       specs: "Биіктігі 2.9м • Жасырын карниз",
-      image: "images/bedroom-botanical-cozy.jpg",
+      image: "images/bedroom-botanical-cozy.webp",
       desc: "Қараңғы тұсқағазбен үйлескен, үйге ерекше тыныштық пен жылылық сыйлайтын шампань түстес жұмсақ перделер."
     },
     {
@@ -303,7 +303,7 @@ const DEFAULT_DATA = {
       location: "Шымкент, Нұрсәт мкр.",
       fabric: "Контраст жиекті софт & Жұмсақ микро-тюль",
       specs: "Биіктігі 2.9м • Қара жиекті сәнді сызық",
-      image: "images/dining-modern-accent.jpg",
+      image: "images/dining-modern-accent.webp",
       desc: "Асхана бөлмесіне арналған, төменгі жиегінде сәнді жіңішке қара сызығы бар заманауи түзу қатпарлы софт перделер."
     },
     {
@@ -314,7 +314,7 @@ const DEFAULT_DATA = {
       location: "Шымкент, Асар мкр.",
       fabric: "Сұр-графит Blackout 100% & Ақ түсті тюль",
       specs: "Биіктігі 3.1м • Жарық оқшаулау",
-      image: "images/bedroom-grey-minimal.png",
+      image: "images/bedroom-grey-minimal.webp",
       desc: "Минималистік интерьерге арналған біртекті симметриялы сұр Blackout перделері — сапалы ұйқы кепілі."
     },
     {
@@ -325,7 +325,7 @@ const DEFAULT_DATA = {
       location: "Шымкент, Қонаев даңғылы",
       fabric: "Кестелі ақсүйек матасы & Шашақты подхват",
       specs: "Авторлық дизайн • Дәстүрлі подхват",
-      image: "images/classic-embroidered.jpg",
+      image: "images/classic-embroidered.webp",
       desc: "Гүлді нәзік кестемен көмкерілген ақсүйектік мата, жиектеріндегі сәнді шашақтарымен қайталанбас сән береді."
     },
     {
@@ -336,7 +336,7 @@ const DEFAULT_DATA = {
       location: "Шымкент, Шаян көшесі",
       fabric: "Сүтті Крем Софт & Тік сызықты нәзік тюль",
       specs: "Биіктігі 2.8м • Мінсіз біртекті қатпар",
-      image: "images/living-cream.jpg",
+      image: "images/living-cream.webp",
       desc: "Жылы сүтті түстегі жұмсақ софт матасы және бөлмеге табиғи күн жарығын біркелкі тарататын әсем тюль үйлесімі."
     },
     {
@@ -347,7 +347,7 @@ const DEFAULT_DATA = {
       location: "Шымкент, Достық мкр.",
       fabric: "Қос маталы комбинация (Бежевый + Геометрия)",
       specs: "Биіктігі 3.0м • Контрасты жиектеу",
-      image: "images/two-tone-modern.jpg",
+      image: "images/two-tone-modern.webp",
       desc: "Екі түрлі фактураның шебер үйлесімі: үстіңгі жағы бір түсті тегіс мата, астыңғы жағы геометриялық бедерлі классикалық өрнек."
     },
     {
@@ -358,7 +358,7 @@ const DEFAULT_DATA = {
       location: "Шымкент, Б. Момышұлы 20А",
       fabric: "Корольдік сатин-атлас & Алтын шашақты аксессуар",
       specs: "Биіктігі 3.6м • Ламбрекенді сәнді драпировка",
-      image: "images/luxury-dining-tassels.jpg",
+      image: "images/luxury-dining-tassels.webp",
       desc: "Салтанатты қонақ қабылдау бөлмелеріне арналған, алтын түстес шашақтармен жиналған француздық асыл драпировка."
     }
   ]
@@ -726,6 +726,7 @@ const Horizontal3DGalleryEngine = (() => {
     let next = (targetIndex + direction) % total;
     if (next < 0) next = total - 1;
     targetIndex = next;
+    ensureAnimationLoop();
   }
 
   function renderProjects(filter = "all") {
@@ -977,53 +978,77 @@ const Horizontal3DGalleryEngine = (() => {
     }
   }
 
-  // 60-120 FPS Pure Independent 3D Animation Loop
+  // 60-120 FPS Battery & Mobile Optimized 3D Animation Loop
+  let isSectionInView = true;
+  function ensureAnimationLoop() {
+    if (!isRunning && isSectionInView && currentMode === "3d") {
+      isRunning = true;
+      window.requestAnimationFrame(animationLoop);
+    }
+  }
+
   function animationLoop() {
-    if (currentMode === "3d" && cardItems.length > 0) {
-      // Smooth luxury spring lerp
-      currentIndex += (targetIndex - currentIndex) * 0.08;
-
-      const nearestIdx = Math.max(0, Math.min(filteredProjects.length - 1, Math.round(currentIndex)));
-      updateActiveInfo(nearestIdx);
-
-      const isMobile = window.innerWidth < 768;
-      const stageWidth = isMobile ? window.innerWidth * 0.85 : Math.min(window.innerWidth * 0.65, 750);
-
-      for (let i = 0; i < cardItems.length; i++) {
-        const item = cardItems[i];
-        const comp = item.comp;
-        const u = i - currentIndex;
-
-        // Culling: off-stage cards outside [-2.0, 2.0] are hidden
-        if (Math.abs(u) > 1.85) {
-          if (item.el.style.display !== "none") {
-            item.el.style.display = "none";
-          }
-          continue;
-        }
-
-        if (item.el.style.display === "none") {
-          item.el.style.display = "block";
-        }
-
-        const tx = u * stageWidth;
-        const ty = comp.baseY + Math.sin(u * 1.6) * (isMobile ? comp.yTravel * 0.4 : comp.yTravel);
-        const depthFactor = 1 - Math.min(1, Math.abs(u));
-        const tz = (depthFactor * comp.zPush) - (Math.abs(u) * (isMobile ? comp.zRecede * 0.5 : comp.zRecede));
-        const rx = comp.baseRx + (Math.sin(u * 1.4) * (isMobile ? comp.pitchFactor * 0.4 : comp.pitchFactor));
-        const ry = (u * (isMobile ? comp.yawFactor * 0.45 : comp.yawFactor));
-        const rz = isMobile ? 0 : u * comp.rollFactor;
-        const scale = comp.baseScale * (1 - Math.min(0.30, Math.abs(u) * 0.15));
-        const opacity = Math.max(0.05, 1 - Math.pow(Math.abs(u) / 1.7, 2));
-        const zIndex = Math.round(100 - Math.abs(u) * 20);
-
-        item.el.style.zIndex = zIndex;
-        item.el.style.transform = `translate3d(calc(-50% + ${tx.toFixed(1)}px), calc(-50% + ${ty.toFixed(1)}px), ${tz.toFixed(1)}px) rotateX(${rx.toFixed(2)}deg) rotateY(${ry.toFixed(2)}deg) rotateZ(${rz.toFixed(2)}deg) scale3d(${scale.toFixed(3)}, ${scale.toFixed(3)}, 1)`;
-        item.el.style.opacity = opacity.toFixed(3);
-      }
+    if (!isSectionInView || currentMode !== "3d" || cardItems.length === 0) {
+      isRunning = false;
+      return;
     }
 
+    const diff = targetIndex - currentIndex;
+    const isSettled = Math.abs(diff) < 0.002;
+
+    if (isSettled && !isDragging) {
+      currentIndex = targetIndex;
+      updateCardsTransform();
+      isRunning = false;
+      return; // Sleep rAF loop when settled to save 100% mobile CPU/GPU!
+    }
+
+    // Smooth luxury spring lerp
+    currentIndex += diff * 0.085;
+    updateCardsTransform();
+
     window.requestAnimationFrame(animationLoop);
+  }
+
+  function updateCardsTransform() {
+    const nearestIdx = Math.max(0, Math.min(filteredProjects.length - 1, Math.round(currentIndex)));
+    updateActiveInfo(nearestIdx);
+
+    const isMobile = window.innerWidth < 768;
+    const stageWidth = isMobile ? window.innerWidth * 0.85 : Math.min(window.innerWidth * 0.65, 750);
+
+    for (let i = 0; i < cardItems.length; i++) {
+      const item = cardItems[i];
+      const comp = item.comp;
+      const u = i - currentIndex;
+
+      // Culling: off-stage cards outside [-1.75, 1.75] are hidden
+      if (Math.abs(u) > 1.75) {
+        if (item.el.style.display !== "none") {
+          item.el.style.display = "none";
+        }
+        continue;
+      }
+
+      if (item.el.style.display === "none") {
+        item.el.style.display = "block";
+      }
+
+      const tx = u * stageWidth;
+      const ty = comp.baseY + Math.sin(u * 1.6) * (isMobile ? comp.yTravel * 0.3 : comp.yTravel);
+      const depthFactor = 1 - Math.min(1, Math.abs(u));
+      const tz = (depthFactor * comp.zPush) - (Math.abs(u) * (isMobile ? comp.zRecede * 0.4 : comp.zRecede));
+      const rx = isMobile ? comp.baseRx : comp.baseRx + (Math.sin(u * 1.4) * comp.pitchFactor);
+      const ry = u * (isMobile ? comp.yawFactor * 0.35 : comp.yawFactor);
+      const rz = isMobile ? 0 : u * comp.rollFactor;
+      const scale = comp.baseScale * (1 - Math.min(0.25, Math.abs(u) * 0.12));
+      const opacity = Math.max(0.05, 1 - Math.pow(Math.abs(u) / 1.6, 2));
+      const zIndex = Math.round(100 - Math.abs(u) * 20);
+
+      item.el.style.zIndex = zIndex;
+      item.el.style.transform = `translate3d(calc(-50% + ${tx.toFixed(1)}px), calc(-50% + ${ty.toFixed(1)}px), ${tz.toFixed(1)}px) rotateX(${rx.toFixed(1)}deg) rotateY(${ry.toFixed(1)}deg) rotateZ(${rz.toFixed(1)}deg) scale3d(${scale.toFixed(3)}, ${scale.toFixed(3)}, 1)`;
+      item.el.style.opacity = opacity.toFixed(2);
+    }
   }
 
   return {
@@ -1296,7 +1321,7 @@ function initAdminSystem() {
       const imgUrlInput = document.getElementById("adm-proj-img").value.trim();
       const desc = document.getElementById("adm-proj-desc").value.trim();
 
-      const finalImg = uploadedProjectImgData || imgUrlInput || "images/crystal-ceiling-living.jpg";
+      const finalImg = uploadedProjectImgData || imgUrlInput || "images/crystal-ceiling-living.webp";
 
       if (!title) {
         alert("Қате: Жоба тақырыбы міндетті түрде толтырылуы керек!");
