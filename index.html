@@ -327,8 +327,11 @@
           <div class="gallery-3d-card mx-auto relative cursor-pointer" onclick="openLightbox(1)">
             <div class="gallery-3d-media-wrap relative">
               <img src="images/crystal-ceiling-living.webp" alt="«Бәйтерек» люкс қонақ бөлмесі" class="gallery-3d-img" loading="eager" decoding="async" />
-              <span class="gallery-3d-badge absolute top-4 left-4 badge-gold px-3.5 py-1.5 rounded-full text-xs font-semibold backdrop-blur-md">
+              <span class="gallery-3d-badge absolute top-4 left-4 badge-gold px-3 py-1 rounded-full text-[11px] sm:text-xs font-semibold backdrop-blur-md shadow-md">
                 Қонақ бөлме мен Залдар
+              </span>
+              <span class="gallery-3d-badge absolute top-4 right-4 bg-black/70 border border-[var(--gold-primary)]/50 text-[var(--gold-light)] px-3 py-1 rounded-full text-[11px] sm:text-xs font-bold backdrop-blur-md shadow-md">
+                7 000 ₸/м бастап
               </span>
               <button type="button" class="gallery-3d-badge absolute bottom-4 right-4 bg-black/50 hover:bg-black/75 text-white backdrop-blur-md p-2.5 rounded-full transition-all shadow-lg" onclick="event.stopPropagation(); openLightbox(1)" aria-label="Толық экранда қарау">
                 <i data-lucide="maximize-2" class="w-4 h-4"></i>
@@ -1108,135 +1111,136 @@
         <!-- Swatch Selector Column (Left) -->
         <div class="lg:col-span-5 space-y-2.5 max-h-[520px] overflow-y-auto pr-1 scrollbar-thin" id="fabric-swatch-list">
 
-        <!-- 1. Гр сетка -->
-        <div class="fabric-swatch-card p-3.5 rounded-2xl border transition-all duration-200 cursor-pointer flex items-center gap-3.5 bg-[var(--bg-card)] border-[var(--gold-primary)] shadow-md" data-fabric-id="gr_setka" onclick="selectFabricById('gr_setka')">
-          <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-[#F8FAFC] to-[#CBD5E1] shrink-0 border border-slate-300 shadow-inner flex items-center justify-center text-slate-800 font-bold text-[10px] text-center uppercase tracking-wider">
+        <!-- 1. Гр сетка (Грек микросеткасы) -->
+        <div class="fabric-swatch-card p-3.5 rounded-2xl border transition-all duration-200 cursor-pointer flex items-center gap-3.5 bg-[var(--bg-card)] border-[var(--gold-primary)] shadow-lg scale-[1.01]" data-fabric-id="gr_setka" onclick="selectFabricById('gr_setka')">
+          <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-[#F1F5F9] to-[#CBD5E1] border-slate-300 text-slate-700 shrink-0 shadow-inner flex items-center justify-center font-bold text-[9px] text-center uppercase tracking-wider">
             СЕТКА
           </div>
           <div class="min-w-0 flex-1">
             <div class="flex items-center justify-between gap-2 mb-0.5">
-              <span class="text-xs font-semibold text-[var(--gold-dark)]">Түркия</span>
-              <span class="text-xs font-bold text-[var(--gold-primary)]">1 000 ₸/м</span>
+              <span class="text-xs font-semibold text-[var(--gold-dark)]">Түркия (Грек үлгісі)</span>
+              <span class="text-xs font-bold text-[var(--gold-primary)]">1 000 ₸ / метр</span>
             </div>
-            <h4 class="font-display text-sm font-bold text-[var(--text-main)] truncate">Гр сетка (Микросетка)</h4>
-            <p class="text-[11px] text-[var(--text-muted)] truncate">Жұмсақ түсетін жеңіл тюль</p>
+            <h4 class="font-display text-sm font-bold text-[var(--text-main)] truncate">Гр сетка (Грек микросеткасы)</h4>
+            <p class="text-[11px] text-[var(--text-muted)] truncate">Жұмсақ толқынды жеңіл микросетка</p>
           </div>
         </div>
 
-        <!-- 2. Бамбук -->
+        <!-- 2. Бамбук (Эко зығыр-тюль) -->
         <div class="fabric-swatch-card p-3.5 rounded-2xl border transition-all duration-200 cursor-pointer flex items-center gap-3.5 bg-[var(--bg-card)]/70 border-[var(--border-subtle)] hover:border-[var(--gold-primary)]/50" data-fabric-id="bambuk" onclick="selectFabricById('bambuk')">
-          <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-[#E2D4B7] to-[#BFA980] shrink-0 border border-amber-400 shadow-inner flex items-center justify-center text-amber-900 font-bold text-[10px] text-center uppercase tracking-wider">
+          <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-[#D7CCC8] to-[#A1887F] border-stone-400 text-stone-900 shrink-0 shadow-inner flex items-center justify-center font-bold text-[9px] text-center uppercase tracking-wider">
             БАМБУК
           </div>
           <div class="min-w-0 flex-1">
             <div class="flex items-center justify-between gap-2 mb-0.5">
-              <span class="text-xs font-semibold text-[var(--gold-dark)]">Түркия</span>
-              <span class="text-xs font-bold text-[var(--gold-primary)]">1 800 ₸/м</span>
+              <span class="text-xs font-semibold text-[var(--gold-dark)]">Түркия (Фабрикалық)</span>
+              <span class="text-xs font-bold text-[var(--gold-primary)]">1 800 ₸ / метр</span>
             </div>
-            <h4 class="font-display text-sm font-bold text-[var(--text-main)] truncate">Бамбук зығыр-тюлі</h4>
-            <p class="text-[11px] text-[var(--text-muted)] truncate">Эко-текстура, күнделікті жайлылық</p>
+            <h4 class="font-display text-sm font-bold text-[var(--text-main)] truncate">Бамбук (Эко зығыр-тюль)</h4>
+            <p class="text-[11px] text-[var(--text-muted)] truncate">Табиғи талшықты тыныс алатын тюль</p>
           </div>
         </div>
 
-        <!-- 3. Сабле -->
+        <!-- 3. Сабле (Жібек софт) -->
         <div class="fabric-swatch-card p-3.5 rounded-2xl border transition-all duration-200 cursor-pointer flex items-center gap-3.5 bg-[var(--bg-card)]/70 border-[var(--border-subtle)] hover:border-[var(--gold-primary)]/50" data-fabric-id="sable" onclick="selectFabricById('sable')">
-          <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-[#F5E6D3] to-[#D4B895] shrink-0 border border-amber-300 shadow-inner flex items-center justify-center text-amber-800 font-bold text-[10px] text-center uppercase tracking-wider">
+          <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-[#FDF2E9] to-[#EDBB99] border-amber-300 text-amber-900 shrink-0 shadow-inner flex items-center justify-center font-bold text-[9px] text-center uppercase tracking-wider">
             САБЛЕ
           </div>
           <div class="min-w-0 flex-1">
             <div class="flex items-center justify-between gap-2 mb-0.5">
               <span class="text-xs font-semibold text-[var(--gold-dark)]">Түркия</span>
-              <span class="text-xs font-bold text-[var(--gold-primary)]">2 500 ₸/м</span>
+              <span class="text-xs font-bold text-[var(--gold-primary)]">2 500 ₸ / метр</span>
             </div>
-            <h4 class="font-display text-sm font-bold text-[var(--text-main)] truncate">Сабле жылтыр софт</h4>
-            <p class="text-[11px] text-[var(--text-muted)] truncate">Нәзік жылтыры бар майысқақ мата</p>
+            <h4 class="font-display text-sm font-bold text-[var(--text-main)] truncate">Сабле (Жібек софт)</h4>
+            <p class="text-[11px] text-[var(--text-muted)] truncate">Жібектей жылтыр, түзу құйылатын софт</p>
           </div>
         </div>
 
-        <!-- 4. Блакаут пикин -->
+        <!-- 4. Блэкаут «Пекин» (Тығыз қорғаныс) -->
         <div class="fabric-swatch-card p-3.5 rounded-2xl border transition-all duration-200 cursor-pointer flex items-center gap-3.5 bg-[var(--bg-card)]/70 border-[var(--border-subtle)] hover:border-[var(--gold-primary)]/50" data-fabric-id="blackout_pekin" onclick="selectFabricById('blackout_pekin')">
-          <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-[#475569] to-[#1E293B] shrink-0 border border-slate-600 shadow-inner flex items-center justify-center text-slate-100 font-bold text-[9px] text-center uppercase tracking-wider">
+          <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-[#334155] to-[#0F172A] border-slate-600 text-slate-100 shrink-0 shadow-inner flex items-center justify-center font-bold text-[9px] text-center uppercase tracking-wider">
             БЛЭКАУТ
           </div>
           <div class="min-w-0 flex-1">
             <div class="flex items-center justify-between gap-2 mb-0.5">
-              <span class="text-xs font-semibold text-[var(--gold-dark)]">Пекин (Азия)</span>
-              <span class="text-xs font-bold text-[var(--gold-primary)]">4 500 ₸/м</span>
+              <span class="text-xs font-semibold text-[var(--gold-dark)]">Пекин (Азия, Класс А)</span>
+              <span class="text-xs font-bold text-[var(--gold-primary)]">4 500 ₸ / метр</span>
             </div>
-            <h4 class="font-display text-sm font-bold text-[var(--text-main)] truncate">Блакаут пикин</h4>
-            <p class="text-[11px] text-[var(--text-muted)] truncate">85% Күңгірттеу, тығыз мата</p>
+            <h4 class="font-display text-sm font-bold text-[var(--text-main)] truncate">Блэкаут «Пекин» (Тығыз қорғаныс)</h4>
+            <p class="text-[11px] text-[var(--text-muted)] truncate">Күн сәулесі мен ыстықтан 85% қорғаныс</p>
           </div>
         </div>
 
-        <!-- 5. Лен -->
+        <!-- 5. Табиғи Зығыр (Премиум Лен) -->
         <div class="fabric-swatch-card p-3.5 rounded-2xl border transition-all duration-200 cursor-pointer flex items-center gap-3.5 bg-[var(--bg-card)]/70 border-[var(--border-subtle)] hover:border-[var(--gold-primary)]/50" data-fabric-id="len" onclick="selectFabricById('len')">
-          <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-[#D6C7A1] to-[#A39268] shrink-0 border border-amber-600 shadow-inner flex items-center justify-center text-amber-950 font-bold text-[10px] text-center uppercase tracking-wider">
+          <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-[#D6C7A1] to-[#A39268] border-amber-600 text-amber-950 shrink-0 shadow-inner flex items-center justify-center font-bold text-[9px] text-center uppercase tracking-wider">
             ЛЕН
           </div>
           <div class="min-w-0 flex-1">
             <div class="flex items-center justify-between gap-2 mb-0.5">
               <span class="text-xs font-semibold text-[var(--gold-dark)]">Түркия & Еуропа</span>
-              <span class="text-xs font-bold text-[var(--gold-primary)]">6 000 ₸/м</span>
+              <span class="text-xs font-bold text-[var(--gold-primary)]">6 000 ₸ / метр</span>
             </div>
-            <h4 class="font-display text-sm font-bold text-[var(--text-main)] truncate">Лен (Табиғи зығыр)</h4>
-            <p class="text-[11px] text-[var(--text-muted)] truncate">Экологиялық заманауи стиль</p>
+            <h4 class="font-display text-sm font-bold text-[var(--text-main)] truncate">Табиғи Зығыр (Премиум Лен)</h4>
+            <p class="text-[11px] text-[var(--text-muted)] truncate">Табиғи эко-зығыр, сабырлы сән</p>
           </div>
         </div>
 
-        <!-- 6. Милана -->
+        <!-- 6. Милана (Корольдік барқыт-софт) -->
         <div class="fabric-swatch-card p-3.5 rounded-2xl border transition-all duration-200 cursor-pointer flex items-center gap-3.5 bg-[var(--bg-card)]/70 border-[var(--border-subtle)] hover:border-[var(--gold-primary)]/50" data-fabric-id="milana" onclick="selectFabricById('milana')">
-          <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-[#7C2D12] to-[#431407] shrink-0 border border-amber-700 shadow-inner flex items-center justify-center text-amber-100 font-bold text-[9px] text-center uppercase tracking-wider">
+          <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-[#7C2D12] to-[#431407] border-amber-700 text-amber-100 shrink-0 shadow-inner flex items-center justify-center font-bold text-[9px] text-center uppercase tracking-wider">
             МИЛАНА
           </div>
           <div class="min-w-0 flex-1">
             <div class="flex items-center justify-between gap-2 mb-0.5">
-              <span class="text-xs font-semibold text-rose-500 font-bold">ХИТ ТАҢДАУ</span>
-              <span class="text-xs font-bold text-[var(--gold-primary)]">7 000 ₸/м</span>
+              <span class="text-xs font-semibold text-[var(--gold-dark)]">Түркия</span>
+              <span class="text-xs font-bold text-[var(--gold-primary)]">7 000 ₸ / метр</span>
             </div>
-            <h4 class="font-display text-sm font-bold text-[var(--text-main)] truncate">Милана (Барқыт-софт)</h4>
-            <p class="text-[11px] text-[var(--text-muted)] truncate">Қалың, қыртыстанбайтын элиталық мата</p>
+            <h4 class="font-display text-sm font-bold text-[var(--text-main)] truncate">Милана (Корольдік барқыт-софт)</h4>
+            <p class="text-[11px] text-[var(--text-muted)] truncate">Барқыттай жұмсақ, қалың элиталық мата</p>
           </div>
         </div>
 
-        <!-- 7. Блакаут Турция -->
+        <!-- 7. Блэкаут «Ыстамбұл» 100% (Түркия) -->
         <div class="fabric-swatch-card p-3.5 rounded-2xl border transition-all duration-200 cursor-pointer flex items-center gap-3.5 bg-[var(--bg-card)]/70 border-[var(--border-subtle)] hover:border-[var(--gold-primary)]/50" data-fabric-id="blackout_turkey" onclick="selectFabricById('blackout_turkey')">
-          <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-[#1E1B4B] to-[#0F172A] shrink-0 border border-indigo-700 shadow-inner flex items-center justify-center text-indigo-100 font-bold text-[9px] text-center uppercase tracking-wider">
+          <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-[#1E1B4B] to-[#0F172A] border-indigo-700 text-indigo-100 shrink-0 shadow-inner flex items-center justify-center font-bold text-[9px] text-center uppercase tracking-wider">
             ТУРЦИЯ
           </div>
           <div class="min-w-0 flex-1">
             <div class="flex items-center justify-between gap-2 mb-0.5">
-              <span class="text-xs font-semibold text-[var(--gold-dark)]">Ыстамбұл</span>
-              <span class="text-xs font-bold text-[var(--gold-primary)]">10 000 ₸/м</span>
+              <span class="text-xs font-semibold text-[var(--gold-dark)]">Түркия (Ыстамбұл)</span>
+              <span class="text-xs font-bold text-[var(--gold-primary)]">10 000 ₸ / метр</span>
             </div>
-            <h4 class="font-display text-sm font-bold text-[var(--text-main)] truncate">Блакаут Турция</h4>
-            <p class="text-[11px] text-[var(--text-muted)] truncate">100% Күңгірттеу, корольдік сапа</p>
+            <h4 class="font-display text-sm font-bold text-[var(--text-main)] truncate">Блэкаут «Ыстамбұл» 100% (Түркия)</h4>
+            <p class="text-[11px] text-[var(--text-muted)] truncate">100% Толық қараңғылық, корольдік сапа</p>
           </div>
         </div>
 
-        <!-- 8. Этно шторы -->
+        <!-- 8. Эксклюзивті Этно-Штора (Авторлық ою) -->
         <div class="fabric-swatch-card p-3.5 rounded-2xl border transition-all duration-200 cursor-pointer flex items-center gap-3.5 bg-[var(--bg-card)]/70 border-[var(--border-subtle)] hover:border-[var(--gold-primary)]/50" data-fabric-id="ethno_shtory" onclick="selectFabricById('ethno_shtory')">
-          <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-[#B45309] to-[#78350F] shrink-0 border border-yellow-500 shadow-inner flex items-center justify-center text-yellow-100 font-bold text-[10px] text-center uppercase tracking-wider">
+          <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-[#B45309] to-[#78350F] border-yellow-500 text-yellow-100 shrink-0 shadow-inner flex items-center justify-center font-bold text-[9px] text-center uppercase tracking-wider">
             ЭТНО
           </div>
           <div class="min-w-0 flex-1">
             <div class="flex items-center justify-between gap-2 mb-0.5">
-              <span class="text-xs font-semibold text-[var(--gold-dark)]">Эксклюзив</span>
-              <span class="text-xs font-bold text-[var(--gold-primary)]">15 000 — 30 000 ₸/м</span>
+              <span class="text-xs font-semibold text-[var(--gold-dark)]">«Әсел» авторлық шеберханасы</span>
+              <span class="text-xs font-bold text-[var(--gold-primary)]">15 000 — 30 000 ₸ / метр</span>
             </div>
-            <h4 class="font-display text-sm font-bold text-[var(--text-main)] truncate">Этно шторы (Авторлық)</h4>
-            <p class="text-[11px] text-[var(--text-muted)] truncate">Қазақы ою-өрнек, алтын шашақпен тігу</p>
+            <h4 class="font-display text-sm font-bold text-[var(--text-main)] truncate">Эксклюзивті Этно-Штора (Авторлық ою)</h4>
+            <p class="text-[11px] text-[var(--text-muted)] truncate">Қазақы ою-өрнек, алтын шашақпен жеке тігіс</p>
           </div>
         </div>
 
       </div>
+
       <!-- Active Swatch Deep Preview (Right) -->
-        <div class="lg:col-span-7 bg-[var(--bg-card)] border border-[var(--border-gold)] rounded-3xl p-6 sm:p-8 relative overflow-hidden">
+        <div class="lg:col-span-7 bg-[var(--bg-card)] border border-[var(--border-gold)] rounded-3xl p-6 sm:p-8 relative overflow-hidden shadow-xl">
           <div class="grid grid-cols-1 sm:grid-cols-12 gap-6 items-center">
             
             <div class="showcase-3d-scene sm:col-span-6">
               <div class="showcase-3d-card aspect-square rounded-2xl overflow-hidden border border-[var(--border-subtle)] bg-[var(--bg-secondary)] relative group" data-3d="fabric">
                 <div class="showcase-3d-inner w-full h-full relative">
-                  <img id="fabric-preview-img" src="images/roman-blind-linen.webp" alt="Табиғи Зығыр Рим Пердесі" class="showcase-3d-media w-full h-full object-cover" loading="lazy" />
+                  <img id="fabric-preview-img" src="images/french-lace-tulle.webp" alt="Гр сетка (Грек микросеткасы)" class="showcase-3d-media w-full h-full object-cover transition-all duration-300" loading="eager" />
                   <div class="showcase-3d-glare"></div>
                 </div>
               </div>
@@ -1244,25 +1248,25 @@
 
             <div class="sm:col-span-6 space-y-4">
               <div>
-                <span id="fabric-preview-badge" class="badge-gold px-2.5 py-1 rounded text-xs font-semibold">Практикалық стиль</span>
-                <h3 id="fabric-preview-name" class="font-display text-2xl font-bold text-[var(--text-main)] mt-2">Табиғи Зығыр Рим Пердесі</h3>
-                <div id="fabric-preview-price" class="text-xl font-bold text-[var(--gold-primary)] mt-1">17 500 ₸ / метр</div>
+                <span id="fabric-preview-badge" class="badge-gold px-2.5 py-1 rounded-full text-xs font-semibold">Халықтық хит</span>
+                <h3 id="fabric-preview-name" class="font-display text-2xl font-bold text-[var(--text-main)] mt-2">Гр сетка (Грек микросеткасы)</h3>
+                <div id="fabric-preview-price" class="text-2xl font-bold text-[var(--gold-primary)] mt-1">1 000 ₸ / метр</div>
               </div>
 
-              <div class="space-y-2 text-xs border-y border-[var(--border-subtle)] py-3">
-                <div class="flex justify-between">
+              <div class="space-y-2.5 text-xs border-y border-[var(--border-subtle)] py-3">
+                <div class="flex justify-between items-center">
                   <span class="text-[var(--text-dim)]">Өндіруші:</span>
-                  <span id="fabric-preview-origin" class="font-medium text-[var(--text-main)]">Бельгия</span>
+                  <span id="fabric-preview-origin" class="font-medium text-[var(--text-main)]">Түркия (Грек үлгісі)</span>
                 </div>
-                <div class="flex justify-between">
-                  <span class="text-[var(--text-dim)]">Жарық өткізгіштігі:</span>
-                  <span id="fabric-preview-opacity" class="font-medium text-[var(--gold-light)]">65% Жұмсақ жарық</span>
+                <div class="flex justify-between items-center">
+                  <span class="text-[var(--text-dim)]">Жарық сүзгісі:</span>
+                  <span id="fabric-preview-opacity" class="font-medium text-[var(--gold-light)]">20% Нәзік сүзгі</span>
                 </div>
               </div>
 
-              <p id="fabric-preview-desc" class="text-xs sm:text-sm text-[var(--text-muted)] leading-relaxed">Ықшам көтеру механизмі бар, жиектері кантымен өңделген табиғи зығыр рим пердесі.</p>
+              <p id="fabric-preview-desc" class="text-xs sm:text-sm text-[var(--text-muted)] leading-relaxed">Жұмсақ толқынмен мінсіз құйылатын, күн сәулесін нәзік таратып, бөлмеге шексіз кеңістік сыйлайтын аса берік әрі жеңіл грек микросеткасы.</p>
 
-              <a id="fabric-preview-wa" href="https://wa.me/77054312732?text=%D0%A1%D3%99%D0%BB%D0%B5%D0%BC%D0%B5%D1%82%D1%81%D1%96%D0%B7%20%D0%B1%D0%B5!%20%C2%AB%D0%A2%D0%B0%D0%B1%D0%B8%D2%93%D0%B8%20%D0%97%D1%8B%D2%93%D1%8B%D1%80%20%D0%A0%D0%B8%D0%BC%20%D0%9F%D0%B5%D1%80%D0%B4%D0%B5%D1%81%D1%96%C2%BB%20%D0%BC%D0%B0%D1%82%D0%B0%D1%81%D1%8B%20%D0%B1%D0%BE%D0%B9%D1%8B%D0%BD%D1%88%D0%B0%20%D2%AF%D0%B9%D0%B3%D0%B5%20%D3%A9%D0%BB%D1%88%D0%B5%D1%83%D1%88%D1%96%20%D0%BC%D0%B5%D0%BD%20%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%D0%B5%D1%80%20%D1%88%D0%B0%D2%9B%D1%8B%D1%80%D2%93%D1%8B%D0%BC%20%D0%BA%D0%B5%D0%BB%D0%B5%D0%B4%D1%96." target="_blank" class="btn-gold w-full py-3 rounded-xl text-xs sm:text-sm font-semibold flex items-center justify-center gap-2">
+              <a id="fabric-preview-wa" href="https://wa.me/77054312732?text=%D0%A1%D3%99%D0%BB%D0%B5%D0%BC%D0%B5%D1%82%D1%81%D1%96%D0%B7%20%D0%B1%D0%B5!%20%D0%A1%D0%B0%D0%BB%D0%BE%D0%BD%20%D1%88%D1%82%D0%BE%D1%80%20%C2%AB%D3%98%D1%81%D0%B5%D0%BB%C2%BB%20%D1%81%D0%B0%D0%B9%D1%82%D1%8B%D0%BD%D0%B0%D0%BD%20%C2%AB%D0%93%D1%80%20%D1%81%D0%B5%D1%82%D0%BA%D0%B0%20(%D0%93%D1%80%D0%B5%D0%BA%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D0%B5%D1%82%D0%BA%D0%B0%D1%81%D1%8B)%C2%BB%20(1%20000%20%E2%82%B8%20%2F%20%D0%BC%D0%B5%D1%82%D1%80)%20%D0%BC%D0%B0%D1%82%D0%B0%D1%81%D1%8B%D0%BD%20%D1%82%D0%B0%D2%A3%D0%B4%D0%B0%D0%B4%D1%8B%D0%BC.%20%D0%9E%D1%81%D1%8B%20%D0%BC%D0%B0%D1%82%D0%B0%20%D2%AF%D0%BB%D0%B3%D1%96%D1%81%D1%96%D0%BD%20%D0%B0%D0%BB%D1%8B%D0%BF%20%D2%AF%D0%B9%D1%96%D0%BC%D0%B5%20%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%D0%B5%D1%80%20%D0%BC%D0%B5%D0%BD%20%D3%A9%D0%BB%D1%88%D0%B5%D1%83%D1%88%D1%96%20%D0%B6%D1%96%D0%B1%D0%B5%D1%80%D0%B5%20%D0%B0%D0%BB%D0%B0%D1%81%D1%8B%D0%B7%20%D0%B1%D0%B0%3F" target="_blank" class="btn-gold w-full py-3.5 rounded-xl text-xs sm:text-sm font-semibold flex items-center justify-center gap-2 shadow-lg">
                 <i data-lucide="package" class="w-4 h-4"></i>
                 <span>Осы матаны үйге алдыру</span>
               </a>

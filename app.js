@@ -44,86 +44,94 @@ const DEFAULT_DATA = {
   },
   fabrics: [
     {
-      id: "gr_setka",
-      name: "Гр сетка (Грек микросеткасы)",
-      price: 1000,
-      badge: "Халықтық хит",
-      origin: "Түркия",
-      opacity: "20% Нәзік жарық",
-      desc: "Жұмсақ түсетін, бөлмеге мол жарық пен кеңістік сыйлайтын берік грек микросеткасы.",
-      image: "images/french-lace-tulle.webp"
+        "id": "gr_setka",
+        "name": "Гр сетка (Грек микросеткасы)",
+        "price": 1000,
+        "priceDisplay": "1 000 ₸ / метр",
+        "badge": "Халықтық хит",
+        "origin": "Түркия (Грек үлгісі)",
+        "opacity": "20% Нәзік сүзгі",
+        "desc": "Жұмсақ толқынмен мінсіз құйылатын, күн сәулесін нәзік таратып, бөлмеге шексіз кеңістік сыйлайтын аса берік әрі жеңіл грек микросеткасы.",
+        "image": "images/french-lace-tulle.webp"
     },
     {
-      id: "bambuk",
-      name: "Бамбук зығыр-тюлі",
-      price: 1800,
-      badge: "Эко таңдау",
-      origin: "Түркия",
-      opacity: "40% Жұмсақ жарық",
-      desc: "Табиғи бамбук талшықты, ауа өткізгіш, күтімге өте қолайлы заманауи күнделікті перде.",
-      image: "images/roman-blind-linen.webp"
+        "id": "bambuk",
+        "name": "Бамбук (Эко зығыр-тюль)",
+        "price": 1800,
+        "priceDisplay": "1 800 ₸ / метр",
+        "badge": "Эко таңдау",
+        "origin": "Түркия (Фабрикалық)",
+        "opacity": "40% Жұмсақ жарық",
+        "desc": "Табиғи бамбук талшығынан тоқылған, ауа еркін өткізетін, шаң жинамайтын және күтімге барынша қолайлы сәнді эко-текстура.",
+        "image": "images/roman-blind-linen.webp"
     },
     {
-      id: "sable",
-      name: "Сабле жылтыр софт",
-      price: 2500,
-      badge: "Сәнді таңдау",
-      origin: "Түркия",
-      opacity: "55% Күңгірттеу",
-      desc: "Нәзік жібектей жылтыры бар, қатпарлары тегіс әрі ауыр құйылатын майысқақ сабле матасы.",
-      image: "images/living-caramel-cove.webp"
+        "id": "sable",
+        "name": "Сабле (Жібек софт)",
+        "price": 2500,
+        "priceDisplay": "2 500 ₸ / метр",
+        "badge": "Сәнді таңдау",
+        "origin": "Түркия",
+        "opacity": "55% Күңгірттеу",
+        "desc": "Асыл жібектей нәзік жылтыры бар, қыртысы түзу құйылатын, заманауи жайлылық пен талғампаздықты ұштастырған майысқақ сабле матасы.",
+        "image": "images/living-caramel-cove.webp"
     },
     {
-      id: "blackout_pekin",
-      name: "Блакаут пикин",
-      price: 4500,
-      badge: "Тиімді баға",
-      origin: "Пекин (Азия)",
-      opacity: "85% Күңгірттеу",
-      desc: "Күн сәулесінен 85% сенімді қорғайтын, жатын бөлмеге арналған берік әрі тығыз блэкаут.",
-      image: "images/bedroom-botanical-cozy.webp"
+        "id": "blackout_pekin",
+        "name": "Блэкаут «Пекин» (Тығыз қорғаныс)",
+        "price": 4500,
+        "priceDisplay": "4 500 ₸ / метр",
+        "badge": "Тиімді баға",
+        "origin": "Пекин (Азия, Класс А)",
+        "opacity": "85% Қорғаныс",
+        "desc": "Күн сәулесі мен ыстықтан 85% сенімді қорғайтын, жатын және балалар бөлмесіне арналған тығыз құрылымды қолжетімді блэкаут.",
+        "image": "images/bedroom-botanical-cozy.webp"
     },
     {
-      id: "len",
-      name: "Лен (Табиғи зығыр)",
-      price: 6000,
-      badge: "Табиғи сән",
-      origin: "Түркия & Еуропа",
-      opacity: "70% Жарық өткізгіштік",
-      desc: "Интерьерге табиғи сабырлылық пен экологиялық минимализм беретін таза зығыр матасы.",
-      image: "images/minimal-sand-ripplefold.webp"
+        "id": "len",
+        "name": "Табиғи Зығыр (Премиум Лен)",
+        "price": 6000,
+        "priceDisplay": "6 000 ₸ / метр",
+        "badge": "Табиғи сән",
+        "origin": "Түркия & Еуропа",
+        "opacity": "70% Сабырлы жарық",
+        "desc": "Интерьерге асыл қарапайымдылық, заманауи эко-эстетика мен сабырлы сән сыйлайтын таза еуропалық зығыр текстурасы.",
+        "image": "images/minimal-sand-ripplefold.webp"
     },
     {
-      id: "milana",
-      name: "Милана (Барқыт-софт)",
-      price: 7000,
-      badge: "Хит сатылым",
-      origin: "Түркия",
-      opacity: "90% Күңгірттеу",
-      desc: "Барқыттай аса жұмсақ, қалың түсті, қыртыстанбайтын оңтүстік өңірдің ең танымал таңдауы.",
-      image: "images/emerald-royal-drape.webp"
+        "id": "milana",
+        "name": "Милана (Корольдік барқыт-софт)",
+        "price": 7000,
+        "priceDisplay": "7 000 ₸ / метр",
+        "badge": "ХИТ САТЫЛЫМ",
+        "origin": "Түркия",
+        "opacity": "90% Күңгірттеу",
+        "desc": "Барқыттай аса жұмсақ жанасуы бар, қалың түсті, қыртыстанбайтын және оңтүстік өңірдегі салтанатты үйлердің №1 таңдауына айналған хит мата.",
+        "image": "images/emerald-royal-drape.webp"
     },
     {
-      id: "blackout_turkey",
-      name: "Блакаут Турция 100%",
-      price: 10000,
-      badge: "Премиум Сапа",
-      origin: "Ыстамбұл (Түркия)",
-      opacity: "100% Түнгі ұйқы",
-      desc: "Жарықты 100% толық бөгейтін, ыстықтан қорғайтын түрік фабрикалық корольдік сапалы блэкаут.",
-      image: "images/silver-crystal-fringe.webp"
+        "id": "blackout_turkey",
+        "name": "Блэкаут «Ыстамбұл» 100% (Түркия)",
+        "price": 10000,
+        "priceDisplay": "10 000 ₸ / метр",
+        "badge": "Премиум Түркия",
+        "origin": "Түркия (Ыстамбұл)",
+        "opacity": "100% Түнгі тыныштық",
+        "desc": "Күн сәулесін 100% толық тұмшалап, жазғы ыстықты өткізбейтін, дыбыс оқшаулайтын түрік фабрикасының люкс класты түпнұсқа блэкаут матасы.",
+        "image": "images/layered-charcoal-sheer.webp"
     },
     {
-      id: "ethno_shtory",
-      name: "Этно шторы (Авторлық)",
-      price: 15000,
-      badge: "Эксклюзив Өнер",
-      origin: "«Әсел» Шеберханасы",
-      opacity: "95% Сән & Қорғаныс",
-      desc: "Қазақы ою-өрнектермен, алтын шашақтармен және авторлық кестемен жеке тігілетін салтанатты этно-перделер (15 000 — 30 000 ₸).",
-      image: "images/classic-embroidered.webp"
+        "id": "ethno_shtory",
+        "name": "Эксклюзивті Этно-Штора (Авторлық ою)",
+        "price": 22000,
+        "priceDisplay": "15 000 — 30 000 ₸ / метр",
+        "badge": "Шеберхана мақтанышы",
+        "origin": "«Әсел» авторлық шеберханасы",
+        "opacity": "95% Сән & Қорғаныс",
+        "desc": "Қазақы классикалық ұлттық ою-өрнектермен, таза алтын жіпті шашақтармен және жеке тапсырыспен тігілетін хан сарайы стиліндегі сәнді этно-перделер.",
+        "image": "images/kazakh-ornament-arch.webp"
     }
-  ],
+],
   projects: [
     {
       id: 1,
@@ -806,30 +814,37 @@ const Horizontal3DGalleryEngine = (() => {
                 <img src="${p.image}" alt="${p.title}" class="gallery-3d-img" loading="eager" decoding="async" />
                 
                 <!-- Category Badge -->
-                <span class="gallery-3d-badge absolute top-4 left-4 badge-gold px-3.5 py-1.5 rounded-full text-xs font-semibold backdrop-blur-md">
+                <span class="gallery-3d-badge absolute top-4 left-4 badge-gold px-3 py-1 rounded-full text-[11px] sm:text-xs font-semibold backdrop-blur-md shadow-md">
                   ${p.categoryName}
+                </span>
+
+                <!-- Price Tag Badge on 3D Card -->
+                <span class="gallery-3d-badge absolute top-4 right-4 bg-black/70 border border-[var(--gold-primary)]/50 text-[var(--gold-light)] px-3 py-1 rounded-full text-[11px] sm:text-xs font-bold backdrop-blur-md shadow-md">
+                  ${p.priceText || "7 000 ₸/м бастап"}
                 </span>
                 
                 <!-- Zoom Button -->
-                <button type="button" class="gallery-3d-badge absolute bottom-4 right-4 bg-black/50 hover:bg-black/75 text-white backdrop-blur-md p-2.5 rounded-full transition-all shadow-lg" onclick="event.stopPropagation(); openLightbox(${p.id})" aria-label="Толық экранда қарау">
-                  <i data-lucide="maximize-2" class="w-4 h-4"></i>
+                <button type="button" class="gallery-3d-badge absolute bottom-3 right-3 bg-black/60 hover:bg-black/85 text-white backdrop-blur-md p-2 rounded-full transition-all shadow-lg" onclick="event.stopPropagation(); openLightbox(${p.id})" aria-label="Толық экранда қарау">
+                  <i data-lucide="maximize-2" class="w-3.5 h-3.5"></i>
                 </button>
               </div>
               
               <!-- Details below image -->
-              <div class="gallery-3d-details p-4 sm:p-5 flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-t border-[var(--border-subtle)]">
+              <div class="gallery-3d-details p-3.5 sm:p-4 flex flex-col sm:flex-row sm:items-center justify-between gap-2.5 border-t border-[var(--border-subtle)]">
                 <div class="min-w-0">
-                  <div class="flex items-center gap-2 text-xs text-[var(--gold-dark)] mb-0.5">
-                    <i data-lucide="map-pin" class="w-3.5 h-3.5 shrink-0"></i>
+                  <div class="flex items-center gap-2 text-[11px] text-[var(--gold-dark)] mb-0.5">
+                    <i data-lucide="map-pin" class="w-3 h-3 shrink-0"></i>
                     <span class="truncate">${p.location}</span>
+                    <span class="text-[var(--text-dim)]">•</span>
+                    <span class="font-bold text-[var(--gold-primary)]">${p.priceText || "7 000 ₸/м"}</span>
                   </div>
-                  <h3 class="font-display text-base sm:text-lg font-bold text-[var(--text-main)] truncate">${p.title}</h3>
-                  <p class="text-xs text-[var(--text-muted)] line-clamp-1 mt-0.5">${p.fabric}</p>
+                  <h3 class="font-display text-sm sm:text-base font-bold text-[var(--text-main)] truncate">${p.title}</h3>
+                  <p class="text-[11px] text-[var(--text-muted)] line-clamp-1 mt-0.5">${p.fabric}</p>
                 </div>
                 
-                <a href="https://wa.me/${store.config.whatsapp}?text=${encodeURIComponent('Сәлеметсіз бе! «' + p.title + '» перде үлгісі ұнады. Үйіме бағасын есептеп бере аласыз ба?')}" target="_blank" onclick="event.stopPropagation();" class="btn-gold px-4 sm:px-5 py-2 rounded-full text-xs font-semibold shrink-0 flex items-center gap-1.5 shadow-sm">
+                <a href="https://wa.me/${store.config.whatsapp}?text=${encodeURIComponent('Сәлеметсіз бе! «' + p.title + '» перде үлгісі ұнады (' + (p.priceText || '') + '). Үйіме бағасын есептеп бере аласыз ба?')}" target="_blank" onclick="event.stopPropagation();" class="btn-gold px-3.5 sm:px-4 py-1.5 rounded-full text-xs font-semibold shrink-0 flex items-center justify-center gap-1 shadow-sm">
                   <span>Тапсырыс</span>
-                  <i data-lucide="arrow-up-right" class="w-3.5 h-3.5"></i>
+                  <i data-lucide="arrow-up-right" class="w-3 h-3"></i>
                 </a>
               </div>
             </div>
@@ -1002,7 +1017,7 @@ const Horizontal3DGalleryEngine = (() => {
       }
 
       if (titleEl) {
-        titleEl.textContent = p.title;
+        titleEl.innerHTML = `<span class="text-white">${p.title}</span><span class="ml-2 text-xs font-bold text-[var(--gold-primary)] bg-[var(--gold-primary)]/10 border border-[var(--gold-primary)]/30 px-2.5 py-0.5 rounded-full">${p.priceText || "7 000 ₸/м бастап"}</span>`;
       }
 
       if (progressBarEl) {
@@ -1191,7 +1206,7 @@ function openLightbox(id) {
   img.src = project.image;
   title.textContent = project.title;
   desc.textContent = project.desc;
-  specs.textContent = `${project.location} • ${project.fabric} • ${project.specs}`;
+  specs.textContent = `${project.location} • ${project.fabric} • ${project.priceText ? "Бағасы: " + project.priceText + " • " : ""}${project.specs}`;
 
   const msg = encodeURIComponent(`Сәлеметсіз бе! Портфолиодағы «${project.title}» бойынша кеңес алып, бағасын есептегім келеді.`);
   waBtn.href = `https://wa.me/${store.config.whatsapp}?text=${msg}`;
