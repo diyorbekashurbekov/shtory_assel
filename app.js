@@ -22,67 +22,106 @@ const DEFAULT_DATA = {
     heroImage: "images/hero-curtains.webp"
   },
   rates: {
-    velvet: 18500,
-    blackout: 14000,
-    linen: 16500,
-    jacquard: 22000,
-    tulle: 8500,
-    sewingPerMeter: 2500,
-    rodManual: 6000,
-    rodHidden: 9500,
-    rodElectric: 38000,
-    installAndSteam: 15000
+    gr_setka: 1000,
+    bambuk: 1800,
+    sable: 2500,
+    blackout_pekin: 4500,
+    len: 6000,
+    milana: 7000,
+    blackout_turkey: 10000,
+    ethno_shtory: 15000,
+    // Backwards compatibility keys
+    velvet: 7000,
+    blackout: 10000,
+    linen: 6000,
+    jacquard: 15000,
+    tulle: 1000,
+    sewingPerMeter: 1200,
+    rodManual: 3500,
+    rodHidden: 6500,
+    rodElectric: 35000,
+    installAndSteam: 10000
   },
   fabrics: [
     {
-      id: "roman",
-      name: "Табиғи Зығыр Рим Пердесі",
-      price: 17500,
-      badge: "Практикалық стиль",
-      origin: "Бельгия",
-      opacity: "65% Жұмсақ жарық",
-      desc: "Ықшам көтеру механизмі бар, жиектері кантымен өңделген табиғи зығыр рим пердесі.",
+      id: "gr_setka",
+      name: "Гр сетка (Грек микросеткасы)",
+      price: 1000,
+      badge: "Халықтық хит",
+      origin: "Түркия",
+      opacity: "20% Нәзік жарық",
+      desc: "Жұмсақ түсетін, бөлмеге мол жарық пен кеңістік сыйлайтын берік грек микросеткасы.",
+      image: "images/french-lace-tulle.webp"
+    },
+    {
+      id: "bambuk",
+      name: "Бамбук зығыр-тюлі",
+      price: 1800,
+      badge: "Эко таңдау",
+      origin: "Түркия",
+      opacity: "40% Жұмсақ жарық",
+      desc: "Табиғи бамбук талшықты, ауа өткізгіш, күтімге өте қолайлы заманауи күнделікті перде.",
       image: "images/roman-blind-linen.webp"
     },
     {
-      id: "emerald",
-      name: "Изумруд Барқыты & Жапырақ Қыстырғыш",
-      price: 26000,
-      badge: "Эксклюзив Хит",
-      origin: "Италия & Франция",
-      opacity: "95% Күңгірттеу",
-      desc: "Зүмірет жасыл барқыттан тігілген сәнді драпировка және арнайы жапырақ пішінді алтын аксессуарлар.",
-      image: "images/emerald-royal-drape.webp"
-    },
-    {
-      id: "silver",
-      name: "Күміс Барқыт & Кристалл Шашақ",
-      price: 24000,
-      badge: "Люкс Драпировка",
-      origin: "Түркия & Италия",
-      opacity: "90% Күңгірттеу",
-      desc: "Жиектеріне хрустальді мөлдір шашақтар тігілген асыл күміс түстес барқыт матасы.",
-      image: "images/silver-crystal-fringe.webp"
-    },
-    {
-      id: "caramel",
-      name: "Карамельді Жылы Софт",
-      price: 16500,
-      badge: "Жайлылық",
+      id: "sable",
+      name: "Сабле жылтыр софт",
+      price: 2500,
+      badge: "Сәнді таңдау",
       origin: "Түркия",
-      opacity: "80% Күңгірттеу",
-      desc: "Төбелік жарықпен керемет үйлесетін, қыртыстанбайтын жылы карамель реңкті премиум мата.",
+      opacity: "55% Күңгірттеу",
+      desc: "Нәзік жібектей жылтыры бар, қатпарлары тегіс әрі ауыр құйылатын майысқақ сабле матасы.",
       image: "images/living-caramel-cove.webp"
     },
     {
-      id: "lace",
-      name: "Француз Кружевосы & Гүлді Подхват",
-      price: 18500,
-      badge: "Романтика & Тюль",
-      origin: "Франция",
-      opacity: "30% Нәзік жарық",
-      desc: "Жиектері мәнерлі кружевомен көмкерілген, алтын гүлді подхваты бар нәзік микро-тюль.",
-      image: "images/french-lace-tulle.webp"
+      id: "blackout_pekin",
+      name: "Блакаут пикин",
+      price: 4500,
+      badge: "Тиімді баға",
+      origin: "Пекин (Азия)",
+      opacity: "85% Күңгірттеу",
+      desc: "Күн сәулесінен 85% сенімді қорғайтын, жатын бөлмеге арналған берік әрі тығыз блэкаут.",
+      image: "images/bedroom-botanical-cozy.webp"
+    },
+    {
+      id: "len",
+      name: "Лен (Табиғи зығыр)",
+      price: 6000,
+      badge: "Табиғи сән",
+      origin: "Түркия & Еуропа",
+      opacity: "70% Жарық өткізгіштік",
+      desc: "Интерьерге табиғи сабырлылық пен экологиялық минимализм беретін таза зығыр матасы.",
+      image: "images/minimal-sand-ripplefold.webp"
+    },
+    {
+      id: "milana",
+      name: "Милана (Барқыт-софт)",
+      price: 7000,
+      badge: "Хит сатылым",
+      origin: "Түркия",
+      opacity: "90% Күңгірттеу",
+      desc: "Барқыттай аса жұмсақ, қалың түсті, қыртыстанбайтын оңтүстік өңірдің ең танымал таңдауы.",
+      image: "images/emerald-royal-drape.webp"
+    },
+    {
+      id: "blackout_turkey",
+      name: "Блакаут Турция 100%",
+      price: 10000,
+      badge: "Премиум Сапа",
+      origin: "Ыстамбұл (Түркия)",
+      opacity: "100% Түнгі ұйқы",
+      desc: "Жарықты 100% толық бөгейтін, ыстықтан қорғайтын түрік фабрикалық корольдік сапалы блэкаут.",
+      image: "images/silver-crystal-fringe.webp"
+    },
+    {
+      id: "ethno_shtory",
+      name: "Этно шторы (Авторлық)",
+      price: 15000,
+      badge: "Эксклюзив Өнер",
+      origin: "«Әсел» Шеберханасы",
+      opacity: "95% Сән & Қорғаныс",
+      desc: "Қазақы ою-өрнектермен, алтын шашақтармен және авторлық кестемен жеке тігілетін салтанатты этно-перделер (15 000 — 30 000 ₸).",
+      image: "images/classic-embroidered.webp"
     }
   ],
   projects: [
@@ -472,7 +511,7 @@ function initCalculator() {
     heightVal.textContent = height.toFixed(1) + " м";
 
     const fabricKey = fabricSelect.value;
-    const fabricPricePerMeter = store.rates[fabricKey] || 18500;
+    const fabricPricePerMeter = store.rates[fabricKey] || 7000;
     const pleatRatio = 2.0;
 
     const fabricMeters = width * pleatRatio;
